@@ -1,0 +1,19 @@
+.carouselItem {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+img {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.shadowDiv {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
