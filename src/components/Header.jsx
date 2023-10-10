@@ -13,7 +13,7 @@ const Header = () => {
     }, [])
 
     const headerStyle = {
-        opacity: color/100
+        backgroundColor: `rgba(3, 0, 31, ${color/1000})`
     }
 
     return (
