@@ -1,6 +1,5 @@
-
-
 body {
     background-color: rgb(50, 52, 65);
     height: 200vh;
+    overflow-x: hidden;
 }

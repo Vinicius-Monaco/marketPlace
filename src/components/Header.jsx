@@ -1,6 +1,7 @@
 import { Button } from "react-bootstrap"
 import "../styles/Header.css"
 import { useEffect, useState } from "react"
+import imageSymbol from "../images/yatch_symbol.png"
 
 const Header = () => {
 
@@ -13,13 +14,14 @@ const Header = () => {
     }, [])
 
     const headerStyle = {
-        backgroundColor: `rgba(3, 0, 31, ${color/1000})`
+        backgroundColor: `rgba(3, 0, 31, ${color/700})`
     }
 
     return (
         <header className="headerTop" id="header" style={headerStyle}>
             <div className="rightArea">
-                
+                <span className="titleHeader">PoseiStore</span>
+                <img className="imgHeaderTitle" src={imageSymbol}></img>
             </div>
             <div className="leftArea">
                 <Button className="buttonHeader">Login </Button>
