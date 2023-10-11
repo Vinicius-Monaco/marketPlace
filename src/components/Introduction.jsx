@@ -11,10 +11,10 @@ const Introduction = () => {
         <div className="introductionArea">
             <Carousel className="carousel" controls={false} indicators={false} pause={false}>
                 <Carousel.Item>
-                    <ImageCarousel imageLink={Image3} />
+                    <ImageCarousel imageLink={Image2} />
                 </Carousel.Item>
                 <Carousel.Item>
-                    <ImageCarousel imageLink={Image2} />
+                    <ImageCarousel imageLink={Image3} />
                 </Carousel.Item>
                 <Carousel.Item>
                 <ImageCarousel imageLink={Image1} />

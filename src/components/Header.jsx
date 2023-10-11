@@ -14,7 +14,7 @@ const Header = () => {
     }, [])
 
     const headerStyle = {
-        backgroundColor: `rgba(3, 0, 31, ${color/700})`
+        backgroundColor: `rgba(3, 0, 31, ${color/600})`
     }
 
     return (
