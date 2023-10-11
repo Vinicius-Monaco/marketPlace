@@ -6,6 +6,7 @@
 
 img {
     position: relative;
+    object-fit: cover;
     width: 100vw;
     height: 100vh;
 }
